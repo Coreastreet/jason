@@ -1,18 +1,18 @@
 defmodule Jason do
   @moduledoc """
-  Documentation for `Jason`.
+   Test module for checking error. Failed case.
   """
 
   @doc """
-  Hello world.
+  Returns the correct error message
 
   ## Examples
 
-      iex> Jason.hello()
-      :world
+      iex> Jason.correct_message()
+      "Package name already exists"
 
   """
-  def hello do
-    :world
+  def correct_message do
+    "Package name already exists. Publishing failed."
   end
 end

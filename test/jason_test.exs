@@ -2,7 +2,7 @@ defmodule JasonTest do
   use ExUnit.Case
   doctest Jason
 
-  test "greets the world" do
-    assert Jason.hello() == :world
+  test "confirm error message" do
+    assert Jason.correct_message() == "Package name already exists"
   end
 end
