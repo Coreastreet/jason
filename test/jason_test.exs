@@ -3,6 +3,6 @@ defmodule JasonTest do
   doctest Jason
 
   test "confirm error message" do
-    assert Jason.correct_message() == "Package name already exists"
+    assert Jason.correct_message() == "Package name already exists. Publishing failed."
   end
 end

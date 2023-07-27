@@ -9,7 +9,7 @@ defmodule Jason do
   ## Examples
 
       iex> Jason.correct_message()
-      "Package name already exists"
+      "Package name already exists. Publishing failed."
 
   """
   def correct_message do
